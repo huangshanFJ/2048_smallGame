@@ -1,0 +1,20 @@
+//
+//  FJ_2048-prefix.pch
+//  FJ_2048
+//
+//  Created by mzl_Jfang on 16/3/7.
+//  Copyright © 2016年 mzl_Jfang. All rights reserved.
+//
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only avilable in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "FJGlobalState.h"
+#endif
